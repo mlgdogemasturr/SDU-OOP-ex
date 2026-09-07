@@ -8,4 +8,4 @@ Useful links:
 1. *Italic* Kursiv ved * rundt om tekst.
 2. **Bold** Fed skrift ved ** rundt om tekst.
 
-### hvordan indsætter jeg et eksempel med */** på hver side af tekst, uden reelt at skrive kursiv eller med fed skrift? 
+### hvordan indsætter jeg et eksempel med * / ** på hver side af tekst, uden reelt at skrive kursiv eller med fed skrift? 
