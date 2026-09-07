@@ -6,6 +6,6 @@ Useful links:
 ## Formatting Examples:
 
 1. *Italic* Kursiv ved * rundt om tekst.
-      "*italic*"
 2. **Bold** Fed skrift ved ** rundt om tekst.
-      "**Bold**"
+
+### hvordan indsætter jeg et eksempel med */** på hver side af tekst, uden reelt at skrive kursiv eller med fed skrift? 
