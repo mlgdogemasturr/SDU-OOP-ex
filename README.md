@@ -5,5 +5,5 @@ Useful links:
 
 ## Formatting Examples:
 
-1. *Italic* Fremhævning.
-2. **Bold** Fremhævning.
+1. *Italic* Kursiv ved * rundt om tekst.
+2. **Bold** Fed skrift ved ** rundt om tekst.
