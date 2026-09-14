@@ -96,13 +96,18 @@ Console.WriteLine("\nA1 = {0:0.000} \nA2 = {1:0.000} \nA3 = {2:0.000}", area1, a
 */
 
 /*
-int input = 38;
+int input = 23045;
 Console.WriteLine("Input is "+input);
-if (input%3!=0){
-    Console.WriteLine("input is odd. Let me fix that for you ...");
+do {
+    Console.WriteLine("input is not divisible by 11. Let me fix that for you ...");
     input += 1;
+    Console.WriteLine("Input is "+input);
 }
-Console.WriteLine("Input is "+input);
+while (input%11!=0); 
+Console.WriteLine("I have fixed it for you. You're welcome!");
+//Nu er "input is not divisible by 11. Let me fix that for you..." forkert i første linje HVIS originalinputtet 
+//kan divideres med 11, da den skriver det lige meget hvad. Sker fordi den var et while loop før, vi er ligeglade.
+*/
 
 /*
 int balance =-10002;
@@ -128,7 +133,7 @@ if (g < j){
     Console.WriteLine("B");
 }
 */
-
+/*
 char direction = 'N';
 switch (direction) {
     case 'N':
@@ -146,4 +151,12 @@ switch (direction) {
     default:
         Console.WriteLine("I don't understand ?!?");
         break;
+}
+*/
+
+for (int y=1 ; y<=10 ; y++) {
+    for (int x=1 ; x<=y ; x++) {
+        Console.Write(string.Format("{0,4}", x*y));
+    }
+    Console.WriteLine("");
 }
